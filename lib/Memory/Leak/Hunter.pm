@@ -1,6 +1,6 @@
 package Memory::Leak::Hunter;
 {
-  $Memory::Leak::Hunter::VERSION = '0.01';
+  $Memory::Leak::Hunter::VERSION = '0.02';
 }
 use strict;
 use warnings;
@@ -77,7 +77,7 @@ Experimantal usage of L<Devel::Gladiator>
 
 Gabor Szabo L<http://szabgab.com/>
 
-=head COPYRIGHT AND LICENSE
+=head1 COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2013 by Gabor Szabo L<http://szabgab.com/>.
 

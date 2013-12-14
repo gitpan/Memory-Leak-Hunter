@@ -23,8 +23,11 @@ my %WriteMakefileArgs = (
     "Data::Dumper" => 0,
     "Devel::Gladiator" => "0.04"
   },
-  "TEST_REQUIRES" => {},
-  "VERSION" => "0.01",
+  "TEST_REQUIRES" => {
+    "Test::Deep" => 0,
+    "Test::More" => 0
+  },
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -33,7 +36,9 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Data::Dumper" => 0,
-  "Devel::Gladiator" => "0.04"
+  "Devel::Gladiator" => "0.04",
+  "Test::Deep" => 0,
+  "Test::More" => 0
 );
 
 

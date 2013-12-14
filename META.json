@@ -24,6 +24,12 @@
             "Data::Dumper" : "0",
             "Devel::Gladiator" : "0.04"
          }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Deep" : "0",
+            "Test::More" : "0"
+         }
       }
    },
    "release_status" : "stable",
@@ -34,7 +40,7 @@
          "web" : "https://github.com/szabgab/Memory-Leak-Hunter"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "SZABGAB"
    ]
